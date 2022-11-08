@@ -42,6 +42,52 @@ h3::after {
     outline: none;
     padding-left: 2px;
 } 
+.links {
+    background-color: #2e4e75ab;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sublinks {
+    
+    letter-spacing: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.sublinks a{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #1c2837;
+    text-decoration: none;
+}
+.sublinks li {
+    margin: 2px 6px;
+}
+.sublinks a:hover{
+    transition: 1s;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,6 +101,7 @@ h3::after {
         color: rgb(216, 216, 99);
     }
     .logo {
+       text-align: center;
         width: 130px;
     }
     .navbar {
@@ -62,7 +109,7 @@ h3::after {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 50px;
+        height: 34px;
         padding: 6px 2px;
     }
     h3::before {
