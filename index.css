@@ -252,10 +252,12 @@ h4::after {
     border: 2px white solid;
 }
 .tip1, .tip2, .tip3, p{
-    color: #fff;
+   font-family: 'Courier New', Courier, monospace;
 }
-
-
+.tip1, .tip2, .tip3, h2 {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
@@ -469,4 +471,24 @@ h4::after {
         width: 70%;
         height: 50vh;
     }
+    /* /////////////////////////////// LAST TIPS //////////////////////////////// */
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 3px;
+    transform: translateY(-50% 50%);
+    left: 2%;
+    width: 100%;
+}
+.tip1, .tip2, .tip3 { 
+    margin: 10px;
+    border: none;
+    padding: 3px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
 }
