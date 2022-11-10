@@ -290,9 +290,35 @@ iframe {
     width: 140%;
     height: 50vh;
 }
-
-
-
+/* ////////////////////FIXED BOTTOM /////////////////////// */
+.bottom {
+    border: 2px solid white;
+    height: 8vh;
+   color: #fff;
+    font-size: 20px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #0F2027;
+    display: flex;
+    justify-content: space-between;
+}
+.login {
+    padding-top: 10px;
+    justify-content: flex-end;
+}
+.icon {
+    padding-top: 10px;
+}
+.bottom a {
+    padding-top: 10px;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.bottom a:hover {
+    color: grey;
+}
 
 
 
@@ -540,7 +566,7 @@ iframe {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 iframe {
-    width: 100%;
+    width: 95%;
     height: 50vh;
 }
 }
