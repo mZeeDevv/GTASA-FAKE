@@ -1,31 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
-     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
 /* <!-- /////// LOGO SPACE ////////// --> */
 h3 {
     color: rgb(216, 216, 99);
 }
+
 h3::before {
-     content: 'STAY ';
-     color: #fff;
-     font-size: 22px;
+    content: 'STAY ';
+    color: #fff;
+    font-size: 22px;
     font-weight: bolder;
 }
+
 h3::after {
     content: ' mZee';
     color: #fff;
-    font-size: 22px;   
+    font-size: 22px;
     font-weight: bolder;
 }
+
 .navbar {
     background-color: #1c2837;
     display: flex;
@@ -34,14 +39,17 @@ h3::after {
     height: 50px;
     padding: 10px 10px;
 }
+
 .search-bar {
     display: flex;
     flex-direction: row;
 }
+
 .search-bar i {
     font-size: 22px;
     color: #fff;
 }
+
 .search-bar input {
     font-weight: bolder;
     color: #1c2837;
@@ -49,7 +57,7 @@ h3::after {
     height: 24px;
     outline: none;
     padding-left: 2px;
-} 
+}
 
 /* <!-- /////////////////////////////// LINKS AREA ///////////////////// --> */
 
@@ -61,21 +69,25 @@ h3::after {
     display: flex;
     justify-content: center;
 }
+
 .sublinks {
-    
+
     letter-spacing: 0px;
     display: flex;
     flex-direction: row;
     list-style: none;
 }
-.sublinks a{
+
+.sublinks a {
     color: #fff;
     text-decoration: none;
 }
+
 .sublinks li {
     margin: 2px 6px;
 }
-.sublinks a:hover{
+
+.sublinks a:hover {
     transition: 0.7s;
     color: grey;
 }
@@ -87,30 +99,35 @@ h3::after {
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
-    height: 60%;
-    position: absolute;
+    height: 60vh;
+    position: relative;
     background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     transform: translateY(50% -50%);
     border: 2px solid black;
     left: 5%;
-    top: 16%;
+    margin-top: 10px;
     animation: slides 20s linear infinite;
     box-shadow: 4px 4px 20px 1px white;
 }
+
 @keyframes slides {
-    0%{
-      background-image: url('https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
+    0% {
+        background-image: url('https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
     }
-    25%{
+
+    25% {
         background-image: url('https://images.unsplash.com/photo-1561214078-f3247647fc5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     }
-    75%{
+
+    75% {
         background-image: url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
     }
+
     100% {
         background-image: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
     }
 }
+
 h4 {
     background-color: #10171adc;
     width: 93%;
@@ -123,12 +140,33 @@ h4 {
     position: relative;
     font-size: 2rem;
 }
+
 h4::after {
-    content:  ' EVERY SINGLE DAY';
+    content: ' EVERY SINGLE DAY';
     color: yellow;
 }
 
+.bisep {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 3px;
+    border: 2px solid black;
+    transform: translateY(-50% 50%);
+    left: 5%;
+    top: 80%;
+    width: 90%;
+    height: 100%;
+}
 
+.bisep .pic {
+    width: 100px;
+    height: 100px;
+    background-image: url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+}
+.bisep .des {
+   
+}
 
 
 
@@ -153,15 +191,18 @@ h4::after {
 
 
 @media (max-width: 500px) {
+
     /* <!-- /////// LOGO SPACE ////////// --> */
     h3 {
         font-size: 12px;
         color: rgb(216, 216, 99);
     }
+
     .logo {
-       text-align: center;
+        text-align: center;
         width: 130px;
     }
+
     .navbar {
         background-color: #1c2837;
         display: flex;
@@ -170,93 +211,106 @@ h4::after {
         height: 34px;
         padding: 6px 2px;
     }
+
     h3::before {
         content: 'STAY ';
         color: #fff;
         font-size: 12px;
-       font-weight: bolder;
-   }
-   h3::after {
-       content: ' mZee';
-       color: #fff;
-       font-size: 12px;   
-       font-weight: bolder;
-   }
-   .search-bar input {
-    width: 50%;
-    font-weight: bolder;
-    color: #1c2837;
-    margin: 0px 3px;
-    height: 20px;
-    outline: none;
-    padding-left: 2px;
-} 
-.search-bar {
-    display: none;
-    display: flex;
-    flex-direction: row;
-   justify-content: flex-end;
-}
-.search-bar i {
-    font-size: 20px;
-    color: #fff;
-}
-/* <!-- /////////////////////////////// LINKS AREA ///////////////////// --> */
+        font-weight: bolder;
+    }
 
-.links {
-    background-color: #2e4e75ab;
-    text-align: center;
-    display: flex;
-}
-.sublinks { 
-    letter-spacing: -1px;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-.sublinks a{
-    font-size: 9px;
-    color: #fff;
-    text-decoration: none;
-}
-.sublinks li {
-    margin: 2px 6px;
-}
-.sublinks a:hover{
-    transition: 0.7s;
-    color: grey;
-}
-  /* <!-- /////////////////////////////////////// Media Area //////////////////////////// --> */
-  .pictures {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 90%;
-    height: 40%;
-    position: absolute;
-    background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-    transform: translateY(50% -50%);
-    border: 2px solid black;
-    left: 5%;
-    top: 14%;
-    animation: slides 20s linear infinite;
-    box-shadow: 4px 4px 20px 1px white;
-}
-h4 {
-    background-color: #10171adc;
-    width: 99%;
-    left: 1%;
-    top: 40%;
-    transform: translateY(-50% 50%);
-    font-family: 'Archivo Black', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    position: relative;
-    font-size: 10px;
-}
-h4::after {
-    content: ' EVERY SINGLE DAY';
-    color: yellow;
-}
+    h3::after {
+        content: ' mZee';
+        color: #fff;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .search-bar input {
+        width: 50%;
+        font-weight: bolder;
+        color: #1c2837;
+        margin: 0px 3px;
+        height: 20px;
+        outline: none;
+        padding-left: 2px;
+    }
+
+    .search-bar {
+        display: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .search-bar i {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    /* <!-- /////////////////////////////// LINKS AREA ///////////////////// --> */
+
+    .links {
+        background-color: #2e4e75ab;
+        text-align: center;
+        display: flex;
+    }
+
+    .sublinks {
+        letter-spacing: -1px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    .sublinks a {
+        font-size: 9px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .sublinks li {
+        margin: 2px 6px;
+    }
+
+    .sublinks a:hover {
+        transition: 0.7s;
+        color: grey;
+    }
+
+    /* <!-- /////////////////////////////////////// Media Area //////////////////////////// --> */
+    .pictures {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90%;
+        height: 40vh;
+        position: relative;
+        background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+        transform: translateY(50% -50%);
+        border: 2px solid black;
+        left: 5%;
+        margin-top: 10px;
+        animation: slides 20s linear infinite;
+        box-shadow: 4px 4px 20px 1px white;
+    }
+
+    h4 {
+        background-color: #10171adc;
+        width: 80%;
+        left: 10%;
+        top: 40%;
+        transform: translateY(-50% 50%);
+        font-family: 'Archivo Black', sans-serif;
+        text-transform: uppercase;
+        color: white;
+        position: relative;
+        font-size: 15px;
+    }
+
+    h4::after {
+        content: ' EVERY SINGLE DAY';
+        color: yellow;
+    }
 
 }
