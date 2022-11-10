@@ -65,7 +65,7 @@ h3::after {
     margin: 2px 6px;
 }
 .sublinks a:hover{
-    transition: 1s;
+    transition: 0.7s;
     color: #fff;
 }
 
@@ -141,6 +141,32 @@ h3::after {
 }
 .search-bar i {
     font-size: 20px;
+    color: #fff;
+}
+.links {
+    background-color: #2e4e75ab;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.sublinks { 
+    letter-spacing: -1px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.sublinks a{
+    font-size: 9px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #1c2837;
+    text-decoration: none;
+}
+.sublinks li {
+    margin: 2px 6px;
+}
+.sublinks a:hover{
+    transition: 0.7s;
     color: #fff;
 }
 
