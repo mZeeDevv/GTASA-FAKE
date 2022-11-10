@@ -186,6 +186,36 @@ h4::after {
     margin-top: 13px;
     line-height: 30px;
 }
+/* /////////////////////////TRYSPECS //////////////////////////// */
+.tryseps {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 3px;
+    transform: translateY(-50% 50%);
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+.tryseps .des {
+    margin-right: 50px;
+    width: 50%;
+ color: #fff;
+}
+.tryseps .des .pra {
+    line-height: 30px;
+}
+.tryseps .pic {
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: flex-end;
+    width: 50%;
+    height: 70vh;
+    background-image: url('https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-position: center;
+    background-size: cover;
+}
 
 
 
@@ -202,14 +232,7 @@ h4::after {
 
 
 
-
-
-
-
-
-
-
-@media (max-width: 500px) {
+@media (max-width: 750px) {
 
     /* <!-- /////// LOGO SPACE ////////// --> */
     h3 {
@@ -346,6 +369,7 @@ h4::after {
 }
 
 .bisep .pic {
+    margin-left: 30px;
     border-radius: 10px;
     border: 2px solid black;
     background-size: cover;
