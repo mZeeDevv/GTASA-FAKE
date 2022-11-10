@@ -569,4 +569,32 @@ iframe {
     width: 95%;
     height: 50vh;
 }
+/* ////////////// FIXED BOTTOM ///////////////////////// */
+.bottom {
+    
+    border: 2px solid white;
+    height: 7vh;
+   color: #fff;
+    font-size: 10px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #0F2027;
+    display: flex;
+    justify-content: space-between;
+}
+.login {
+    padding-top: 5px;
+    justify-content: flex-end;
+}
+.icon {
+    padding-top: 5px;
+}
+.bottom a {
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin: 2px 4px;
+    text-decoration: none;
+    color: #fff;
+}
 }
