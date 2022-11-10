@@ -99,13 +99,13 @@ h3::after {
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
-    height: 60vh;
+    height: 80vh;
     position: relative;
     background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     transform: translateY(50% -50%);
     border: 2px solid black;
     left: 5%;
-    margin-top: 10px;
+    margin-top: 20px;
     animation: slides 20s linear infinite;
     box-shadow: 4px 4px 20px 1px white;
 }
@@ -146,26 +146,45 @@ h4::after {
     color: yellow;
 }
 
+/* //////////////////////////////////// BISCEP SECTION //////////////////////////// */
+
 .bisep {
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
     position: relative;
     border-radius: 3px;
-    border: 2px solid black;
     transform: translateY(-50% 50%);
     left: 5%;
-    top: 80%;
     width: 90%;
     height: 100%;
 }
 
 .bisep .pic {
-    width: 100px;
-    height: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: fixed;
+    width: 70%;
+    /* height: 50vh; */
     background-image: url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
 }
 .bisep .des {
-   
+    width: 70%;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+     
+}
+.bisep .des h2 {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.bisep .des .intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 13px;
+    line-height: 30px;
 }
 
 
@@ -312,5 +331,41 @@ h4::after {
         content: ' EVERY SINGLE DAY';
         color: yellow;
     }
+/* //////////////////////////////////// BISCEP SECTION //////////////////////////// */
 
+.bisep {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 3px;
+    transform: translateY(-50% 50%);
+    left: 8%;
+    width: 90%;
+    height: 100%;
+}
+
+.bisep .pic {
+    border-radius: 10px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: fixed;
+    width: 70%;
+    height: 50vh; 
+    background-image: url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+}
+.bisep .des {
+    margin-top: 12px;
+    width: 90%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+     
+}
+.bisep .des .intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    line-height: 25px;
+}
 }
