@@ -318,8 +318,29 @@ iframe {
 .bottom a:hover {
     color: grey;
 }
+.media i {
+    margin: 3px 23px;
+    font-size: 30px;
+   color: #fff;
+}
+.copyrights {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c2837;
+    height: 30vh;
+}
+.credits {
+    color: #fff;
+    margin-top: 13px;
+}
+.credits a {
+    margin-right: 3px;
+    text-decoration: none;
+    color: pink;
 
-
+}
 
 
 
