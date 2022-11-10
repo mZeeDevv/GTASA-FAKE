@@ -341,7 +341,14 @@ iframe {
     color: pink;
 
 }
-
+.username {
+    position: fixed;
+    font-size: 20px;
+    top: 30%;
+    color: #fff;
+    width: 20%;
+    background-color: #1c2837;
+}
 
 
 
@@ -617,5 +624,13 @@ iframe {
     margin: 2px 4px;
     text-decoration: none;
     color: #fff;
+}
+.username {
+    position: fixed;
+    font-size: 10px;
+    top: 30%;
+    color: #fff;
+    width: 20%;
+    background-color: #1c2837;
 }
 }
