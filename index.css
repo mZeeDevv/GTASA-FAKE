@@ -428,11 +428,12 @@ h4::after {
 
     .tryseps .des {
         margin-right: 50px;
-        width: 100%;
+        width: 93%;
         color: #fff;
     }
 
     .tryseps .des .pra {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 24px;
     }
 
