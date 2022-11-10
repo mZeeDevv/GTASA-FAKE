@@ -229,9 +229,31 @@ h4::after {
     background-size: cover;
 }
 
-
-
-
+/* /////////////////////////////// LAST TIPS //////////////////////////////// */
+.container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 3px;
+    transform: translateY(-50% 50%);
+    left: 12%;
+    width: 800px;
+}
+.tip1, .tip2, .tip3 { 
+    margin: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.tip1, .tip2, .tip3, img {
+    border: 2px white solid;
+}
+.tip1, .tip2, .tip3, p{
+    color: #fff;
+}
 
 
 
