@@ -209,6 +209,7 @@
                 </div>
                 <input type="text" placeholder="Enter your Name" id="username">
                 <button id="submit">Lets go</button>
+                <a href="#" id="skip">Skip now</a>
             </div>
         </div>
     </div>
@@ -226,20 +227,27 @@
         let username = document.getElementById('username')
         let loginpage = document.getElementById('loginpage')
         let error = document.getElementById('error')
-
+        let skip = document.getElementById('skip')
 
         submit.addEventListener('click', () => {
             name.innerText = username.value
             login.innerText = `Login as ${username.value}`
             if (username.value == 0) {
                 error.style.display = 'block'
-
             } else {
                 loginpage.style.display = "none"
-                wholehtml.style.display = "block"
-            }
+                error.style.display = 'block'
+            };
         })
-
+        skip.addEventListener('click' , () => {
+            loginpage.style.display = "none"
+            wholehtml.style.display = "block"
+            name.innerText = ` Guest003`
+        })       
+        login.addEventListener('click', () =>{
+            loginpage.style.display = "block"
+            wholehtml.style.display = "none"
+        })
 
 
 
