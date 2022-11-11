@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+.whole-html {
+    display: none;
+}
 body {
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
@@ -111,6 +112,7 @@ h3::after {
     animation: slides 20s linear infinite;
     box-shadow: 4px 4px 20px 1px white;
 }
+
 
 @keyframes slides {
     0% {
@@ -349,6 +351,16 @@ iframe {
     width: 20%;
     background-color: #1c2837;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
