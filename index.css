@@ -685,10 +685,11 @@ iframe {
     justify-content: space-between;
 }
 .login {
-    padding: 5px 2px;
+    padding: 2px 20px;
     justify-content: flex-end;
 }
 .icon {
+    font-size: 8px;
     padding-top: 5px;
 }
 .bottom a {
@@ -713,6 +714,7 @@ h6 {
     font-weight: 100;
     font-size: 10px;
 }
+
 .login2 {
 width: 90%;
 }
