@@ -7,11 +7,26 @@
     box-sizing: border-box;
 }
 .whole-html {
+    animation: new 1s linear;
     display: none;
 }
 body {
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
+@keyframes new {
+    0%{
+      transform: rotate(12deg);   
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+
 
 /* <!-- /////// LOGO SPACE ////////// --> */
 h3 {
