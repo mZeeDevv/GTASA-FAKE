@@ -305,7 +305,7 @@ iframe {
     justify-content: space-between;
 }
 .login {
-    padding-top: 10px;
+    padding: 10px 10px;
     justify-content: flex-end;
 }
 .icon {
@@ -344,16 +344,57 @@ iframe {
 
 }
 .username {
+    padding: 10px 10px;
     position: fixed;
     font-size: 20px;
     top: 30%;
     color: #fff;
-    width: 20%;
     background-color: #1c2837;
 }
 
-
-
+.login2 {
+    border-radius: 10px;
+    padding: 30px 30px;
+    border: 1px black solid;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login2 input {
+    font-weight: bolder;
+    outline: none;
+    height: 100%;
+    margin: 10px 10px;
+}
+.login2 button {
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    color:  #fff;
+    background-color: salmon;
+}
+button:hover {
+    background-color: rgb(177, 96, 87);
+}
+.error {
+    display: none;
+    border: 1px red solid;
+    text-align: center;
+    background-color: rgba(206, 65, 65, 0.308);
+    color: red;
+    font-weight: bolder;
+}
+h6 {
+    font-size: 30px;
+}
 
 
 
@@ -624,7 +665,7 @@ iframe {
     justify-content: space-between;
 }
 .login {
-    padding-top: 5px;
+    padding: 5px 2px;
     justify-content: flex-end;
 }
 .icon {
@@ -638,11 +679,18 @@ iframe {
     color: #fff;
 }
 .username {
+    padding: 2px 2px;
     position: fixed;
     font-size: 10px;
     top: 30%;
     color: #fff;
-    width: 20%;
     background-color: #1c2837;
+}
+h6 {
+    font-size: 13px;
+}
+.error {
+    font-weight: 100;
+    font-size: 10px;
 }
 }
